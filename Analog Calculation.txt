@@ -1,0 +1,37 @@
+calculation for Analog Clock with Vishal Vishwakarma
+
+This is the calculation for Clock rotatation, if you have any question please mension me. I can explain for you.
+
+h=hours hands
+m=minutes hands
+s=seconds hands
+
+
+If m hands rotates 60 minutes = 1 hrs(360 degree)
+then, 60 min= 360 degree
+1 min= 6 degree (so, minute hands rotates 6 degree for completing 1 minute)
+m min= 6 degree minutes
+so, 6*mtime
+
+if s hands rotates 360 degree= 1 min
+then, 60 sec= 1 min
+60 sec= 360 degree
+1 sec= 6 degree
+s sec= 6 degree seconds
+so, 6*stime
+
+
+
+If h hands rotates 12 hrs=360 degree
+then, 12 hrs=360 degree
+1 hrs=360/12 = 30 degree 
+60 min= 30 degree
+1 min= 1/2 degree
+m=m/2 degree rotates
+so, h hrs= (30 degree hours +m/2)
+:: m/2 is a mintue hands calculation, Let assume the time is 01hrs:30min, then the h hands show in the middle of 1-2.
+and m hands show in 30. 
+therfore, we also want minute hands calculation to rotates our h hands
+so, 30*htime +m/2
+
+
